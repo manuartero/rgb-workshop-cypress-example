@@ -1,0 +1,18 @@
+.login-form {
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+
+  color: gold;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  border: 3px solid rgb(0, 7, 58);
+  opacity: 0.9;
+}

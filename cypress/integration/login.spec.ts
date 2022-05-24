@@ -5,7 +5,8 @@
 // check out the link below and learn how to write your first test:
 // https://on.cypress.io/writing-first-test
 describe("My First Test", () => {
-  it('gets the login form', () => {
-    cy.visit('http://localhost:3000')
-  })
+  it("gets the login form", () => {
+    cy.visit("http://localhost:3000");
+    cy.get(".login-form").contains("LOGIN HERE");
+  });
 });

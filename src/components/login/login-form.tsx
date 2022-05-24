@@ -1,7 +1,7 @@
 import "./login-form.scss";
 
 function LoginForm(): JSX.Element {
-  return <div className="login-form">LOGIN HERE</div>;
+  return <section className="login-form">LOGIN HERE</section>;
 }
 
 export default LoginForm;

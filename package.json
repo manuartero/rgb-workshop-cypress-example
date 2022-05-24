@@ -17,7 +17,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
+    "posttest": "cucumber-js",
+    "test-features": "cucumber-js",
     "eject": "react-scripts eject",
     "cypress": "cypress open"
   },
@@ -38,6 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   },
   "devDependencies": {
     "@cucumber/cucumber": "^8.2.1",

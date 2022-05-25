@@ -12,7 +12,32 @@
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
   border-radius: 6px;
   background: white;
-  cursor: pointer;
   border: 3px solid rgb(0, 7, 58);
   opacity: 0.9;
+
+  font-size: xx-large;
+  font-weight: 700;
+
+  & input {
+    width: 90%;
+    padding: 4px;
+    margin: 4px;
+    border: 2px solid gold;
+    border-radius: 6px;
+  }
+
+  & button {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 32px;
+
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    background: white;
+
+  }
 }

@@ -18,5 +18,5 @@ When("I enter the app", () => {
 });
 
 Then("the LoginForm is rendered", () => {
-  cy.get(".login-form").contains("LOGIN HERE");
+  cy.get(".login-form").contains("go");
 });

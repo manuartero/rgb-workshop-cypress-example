@@ -15,7 +15,7 @@
     }
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3072 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "test-features": "cypress run --record --key 677e2093-02aa-4d92-865e-778cc94c0e4c",

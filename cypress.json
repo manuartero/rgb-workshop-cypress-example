@@ -1,1 +1,4 @@
-{}
+{
+  "projectId": "qcbww9",
+  "testFiles": "**/*.feature"
+}
